@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary {
+    color: #FD6E0A;
+}
+.btn-primary {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 25px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* Header logo and navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+/* Banner Design */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 61px;
+    margin-bottom: 5px;
+}
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Main Section Design */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Me Section Styles */
+.about {
+    margin-bottom: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #181818;
+
+}
+.section-description {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around   ;
+}
+.about-info-title {
+    font-size: 18px;
+    color: #757575;
+}
+.about-info-description {
+    font-size: 18px;
+    font-weight: 700;
+    color: #474747;
+}
