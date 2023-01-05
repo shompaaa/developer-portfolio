@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 1px;
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary {
@@ -16,6 +15,17 @@
     border: 0;
     padding: 10px 25px;
 }
+.btn-contact{
+    color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    padding: 10px 25px;
+}
+
 
 .header {
     background: #FFF8F3;
@@ -31,7 +41,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
 
 .logo {
@@ -142,6 +152,8 @@ main {
     gap: 24px;
 }
 .resume-title {
+    font-size: 25px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 .resume-item {
