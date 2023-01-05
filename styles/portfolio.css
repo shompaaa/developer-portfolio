@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 1px;
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary {
@@ -136,3 +137,35 @@ main {
 }
 
 /* Resume Section Styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-title {
+    margin-bottom: 30px;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-item .title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item .sub-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-item .description {
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
